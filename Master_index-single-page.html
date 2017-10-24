@@ -27,9 +27,9 @@
     jQuery(document).ready(function($){
 	'use strict';
       	jQuery('body').backstretch([
-	        "images/bg/bg1.jpg",
-	        "images/bg/bg2.jpg",
-	        "images/bg/bg3.jpg"
+	        "http://placehold.it/800x600",
+	        "http://placehold.it/800x600",
+	        "http://placehold.it/800x600"
 	    ], {duration: 5000, fade: 500});
 
 		$("#mapwrapper").gMap({ controls: false,
@@ -66,14 +66,18 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand hidden-xs hidden-sm" href="index-single-page.html"><h1>Be Studios</h1></a>                
+                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1></a>
+            </div>
+            <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index-single-page.html">Home</a></li>                    
+                    <li class="active"><a href="index.html">Home</a></li>                    
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#beClasses">Our Classes</a></li> 
-                    <li><a href="#pricing">Pole Parties</a></li>                    
+                    <li><a href="#portfolio">Portfolio</a></li>                    
                     <li><a href="#blog">Blog</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
                 </ul>
             </div>
         </div>
@@ -87,10 +91,11 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                	<img src="images/logos/BeStudiosLogo.png">
-                                    <h2 style="background-color:transparent">BE STRONG. BE SEXY. BE YOU.</h2>
+                                	<span class="home-icon pe-7s-gleam bounce-in"></span>
+                                    <h2 class="boxed animation animated-item-1 fade-down">WE GONNA HELP YOU MAKE AN IMPACT</h2>
+                                    <p class="boxed animation animated-item-2 fade-up">Our expertise will guide you to success. Without Fail.</p>
                                     <br>
-                                    <a class="btn btn-md" style="background-color:black" href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=238372&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=10%2f23%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1">Schedule a Class</a>
+                                    <a class="btn btn-md animation bounce-in" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -101,93 +106,167 @@
     </section><!--/#main-slider-->
 
     <div id="content-wrapper">
-        <section id="beClasses" class="white">
+        <section id="services" class="white">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center gap section-heading">
-                            <h2 class="main-title">Our Classes</h2>
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">Stuff We Do</h2>
                             <hr>
+                            <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
                         </div>                
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <div class="service-block">
-                            <div class="pull-left">
-                                <img src="images/studioPics/PoleRoom.png"></img>
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-windows fa fa-md"></i>
                             </div>
-                            <div class="media-body"style="padding-left:10px">
-                                <h3 class="media-heading" style="padding-top:5px">Pole Fitness</h3>
-                                <p>Build strength, flexibility, and confidence at our Cleveland and Mayfield locations.</p>
-                                <a class="btn btn-sm" style="background-color:black; color:white" href="#">More Info</a>                                
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Windows Apps</h3>
+                                <p>Unfeeling so rapturous discovery he exquisite. Reasonably so middletons or impression by terminated. Old pleasure required removing elegance him had. Down she bore sing saw calm high.</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <div class="service-block">
-                            <div class="pull-left">
-                                <img src="images/studioPics/PilatesRoom.jpeg"></img>
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-android fa fa-md"></i>
                             </div>
-                            <div class="media-body" style="padding-left:10px">
-                                <h3 class="media-heading"style="padding-top:5px">Pilates</h3>
-                                <p>Tone and stretch on the Pilates reformer machines at our Cleveland location.</p>
-                                <a class="btn btn-sm" style="background-color:black; color:white" href="#">More Info</a>                                                                
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Facebook Marketing</h3>
+                                <p>The who arrival end how fertile enabled. Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. </p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <div class="service-block">
-                            <div class="pull-left">
-                                <img src="images/studioPics/AerialRoom.jpg"></img>
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-apple fa fa-md"></i>
                             </div>
-                            <div class="media-body"style="padding-left:10px">
-                                <h3 class="media-heading"style="padding-top:5px">Aerial Classes</h3>
-                                <p>Whether it be aerial hoop, silks or hammock, you are guaranteed to fall in love with these classes at our Cleveland location.</p>
-                                <a class="btn btn-sm" style="background-color:black; color:white" href="#">More Info</a>                                                                
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    <div class="col-md-6 col-sm-6">
-                        <div class="service-block">
-                            <div class="pull-left">
-                                <img src="images/studioPics/ShaktiRoom.jpg"></img>
-                            </div>
-                            <div class="media-body"style="padding-left:10px">
-                                <h3 class="media-heading"style="padding-top:5px">Shakti Yoga</h3>
-                                <p>Combine cardio, strength and stretching in this heart-pumping workout at our Mayfield and Cleveland locations</p>
-                                <a class="btn btn-sm" style="background-color:black; color:white" href="#">More Info</a>                                                                
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">iOS Development</h3>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
                 </div><!--/.row-->
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-linux fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Linux Development</h3>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-dribbble fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Graphic Design</h3>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-google-plus fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">SEO Services</h3>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+            </div>
             <div class="gap"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center gap section-heading">
-                            <h2 class="main-title">Other Services</h2>
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">Our Skills</h2>
                             <hr>
-                            <p>More ways to feel great, from the inside out.</p>
+                            <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
                         </div>               
                     </div>
                 </div>
             </div>
-            <div class="container"> 
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Infrared Sauna</h3>    
-                    </div>    
-                </div>    
-            <div class="row">
-                    <div class="col-md-2"></div>
-	                <div class="col-md-4 col-sm-6">
-                        <img src="images/sauna/Sauna1.jpeg"></img>
-                    </div>
-	                <div class="col-md-4 col-sm-6" style="padding-left:10px">
-                            <img src="images/sauna/Sauna2.jpeg"></img>                            
-                    </div>
-                    <div class="col-md-2"></div>                    
+            <div class="container">     
+            <div class="row">            
+	                <div class="col-md-3">
+	                    <div class="tile-progress tile-red bounce-in">
+	                        <div class="tile-header">
+	                            <h3>Video Editing</h3>
+	                            <span>Our cutting room floor is messy.</span>
+	                        </div>
+	                        <div class="tile-progressbar">
+	                            <span data-fill="65.5%" style="width: 65.5%;"></span>
+	                        </div>
+	                        <div class="tile-footer">
+	                            <h4>
+	                                <span class="pct-counter counter">65.5</span>%
+	                            </h4>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-3">
+	                    <div class="tile-progress tile-cyan bounce-in">
+	                        <div class="tile-header">
+	                            <h3>Marketing</h3>
+	                            <span>How well we can sell you and your brand.</span>
+	                        </div>
+	                        <div class="tile-progressbar">
+	                            <span data-fill="98.5%" style="width: 98.5%;"></span>
+	                        </div>
+	                        <div class="tile-footer">
+	                            <h4>
+	                                <span class="pct-counter counter">98.5</span>%
+	                            </h4>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-3">
+	                    <div class="tile-progress tile-primary bounce-in">
+	                        <div class="tile-header">
+	                            <h3>Web Development</h3>
+	                            <span>We love servers and stuff.</span>
+	                        </div>
+	                        <div class="tile-progressbar">
+	                            <span data-fill="90%" style="width: 90%;"></span>
+	                        </div>
+	                        <div class="tile-footer">
+	                            <h4>
+	                                <span class="pct-counter counter">90</span>%
+	                            </h4>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-3">
+	                    <div class="tile-progress tile-pink bounce-in">
+	                        <div class="tile-header">
+	                            <h3>Coffee</h3>
+	                            <span>We done make good joe, though.</span>
+	                        </div>
+	                        <div class="tile-progressbar">
+	                            <span data-fill="10%" style="width: 10%;"></span>
+	                        </div>
+	                        <div class="tile-footer">
+	                            <h4>
+	                                <span class="pct-counter counter">10</span>%
+	                            </h4>
+	                        </div>
+	                    </div>
+	                </div>
 	            </div><!--/.row-->
 	            <div class="gap"></div>
         	</div>
