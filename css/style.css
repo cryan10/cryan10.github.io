@@ -2,7 +2,20 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+.img-responsive {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+  }
 
+.circleBase {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    background:rgba(255, 255, 255, 0.712);
+}
 .fa-eye {
     background-color: transparent;
     color: black;
@@ -362,7 +375,7 @@ blockquote {
     transition: all .5s ease-in-out;
 }
 
-.portfolio-item:hover h5,
+/*.portfolio-item:hover h5,
 .team-member:hover .team-content,
 .post:hover .content {
     -webkit-transition: all .5s ease-in-out;
@@ -371,7 +384,7 @@ blockquote {
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     border-bottom: 4px solid #00b29e;
-}
+}*/
 
 .portfolio-item h5:after {
     bottom: 100%;
@@ -936,7 +949,7 @@ ul.tag-cloud li {
     font-size: 16px;
 }
 
-.team-content:after {
+/*.team-content:after {
     bottom: 100%;
     left: 50%;
     border: solid transparent;
@@ -949,19 +962,19 @@ ul.tag-cloud li {
     border-bottom-color: #fff;
     border-width: 15px;
     margin-left: -15px;
-}
+}*/
 
-.team-member .btn {
+/*.team-member .btn {
     margin-top: 10px;
     margin-bottom: 5px;
-}
+}*/
 
-.team-image {
+/*.team-image {
     position: relative;
     padding: 0;
-}
+}*/
 
-.team-image .overlay {
+/*.team-image .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -975,7 +988,7 @@ ul.tag-cloud li {
     -moz-transition: opacity 300ms;
     -o-transition: opacity 300ms;
     transition: opacity 300ms;
-}
+}*/
 
 .team-image .overlay .preview {
     position: relative;
