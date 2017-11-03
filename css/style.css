@@ -2,11 +2,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+
 .img-responsive {
     display: inline-block;
     vertical-align: middle;
     float: none;
-  }
+  } 
 
 .circleBase {
     display: inline-block;
