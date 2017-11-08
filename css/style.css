@@ -2,6 +2,26 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+/*.btn.btn-md:hover{
+    background-color:white !important;
+    border-color: black !important;
+    color:black !important;
+}*/
+
+.modal-title{
+    font-family: allura, cursive;
+    letter-spacing: 2px;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    font-weight:900;
+}
+
+.modal-body{
+    font-family: Lato, sans-serif;    
+    font-weight:400;
+}
+
 table{background-color: rgba(0, 0, 0, 0.829);}
 
 th{
@@ -23,6 +43,10 @@ td{
     padding-right: 5px;
 }
 
+.team-member{
+    background-color:white;
+     padding-top: 25px;
+}
 
 .img-responsive {
     display: inline-block;

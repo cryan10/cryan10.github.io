@@ -32,7 +32,7 @@
                 "images/studioPics/AerialRoom.jpg",
                 "images/studioPics/AerialRoom.jpg",
                 "images/studioPics/AerialRoom.jpg",
-                ], { duration: 5000, fade: 500 });
+            ], { duration: 5000, fade: 500 });
 
             $("#mapwrapper").gMap({
                 controls: false,
@@ -81,8 +81,24 @@
                         <li>
                             <a href="index.html#main-slider">Home</a>
                         </li>
-                        <li>
-                            <a href="index.html#beClasses">Our Classes</a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Classes
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="poleclasses.html">Pole Fitness</a>
+                                </li>
+                                <li>
+                                    <a href="pilatesclasses.html">Pilates</a>
+                                </li>
+                                <li>
+                                    <a href="aerialclasses.html">Aerial</a>
+                                </li>
+                                <li>
+                                    <a href="shaktiyoga.html">Shakti Yoga</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="index.html#poleparties">Pole Parties</a>
@@ -115,7 +131,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="center gap fade-down section-heading">
-                                    <h2 class="main-title">Aerial<br>Hoop | silks | hammock</h2>
+                                    <h2 class="main-title">Aerial
+                                        <br>Hoop | silks | hammock</h2>
                                     <hr>
                                     <p>at our Cleveland location</p>
                                     <br>
@@ -390,8 +407,78 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12  text-center">
-                        <img class="img-responsive" style="display:inline-block" src="images/classpricing/MonthlyMembershipPricing.png" />
+                    <div class="col-md-3 col-sm-12">
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>Be Sexy</th>
+                            </tr>
+                            <tr>
+                                <th style="font-family: Lato, sans-serif; font-size:20px">$59/Month</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>1 class per week</li>
+                                        <li>1 open pole or aerial practice per week</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>Be Strong</th>
+                            </tr>
+                            <tr>
+                                <th style="font-family: Lato, sans-serif; font-size:20px">$99/Month</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>2 classes per week</li>
+                                        <li>1 open pole or aerial practice per week</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>Be Brave</th>
+                            </tr>
+                            <tr>
+                                <th style="font-family: Lato, sans-serif; font-size:20px">$149/Month</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>3 classes per week</li>
+                                        <li>1 open pole or aerial practice per week</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>Be You</th>
+                            </tr>
+                            <tr>
+                                <th style="font-family: Lato, sans-serif; font-size:20px">$229/Month</th>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom:0px !important">
+                                    <ul>
+                                        <li>Unlimited classes per week</li>
+                                        <li>Unlimited open pole and aerial practices per week</li>
+                                        <li>1 free sauna sitting per month</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 <br>
@@ -450,8 +537,35 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12  text-center">
-                        <img class="img-responsive" style="display:inline-block; width:70%" src="images/classpricing/ClassPackagePricing.png" />
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>5 Class Pass</th>
+                            </tr>
+                            <tr>
+                                <th style="font-family: Lato, sans-serif; font-size:20px; padding-top:40px; padding-bottom:40px">$95</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>10 Class Pass</th>
+                            </tr>
+                            <tr>
+                                <th style="font-family: Lato, sans-serif; font-size:20px; padding-top:40px; padding-bottom:40px">$180</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>20 Class Pass</th>
+                            </tr>
+                            <tr>
+                                <th style="font-family: Lato, sans-serif; font-size:20px; padding-top:40px; padding-bottom:40px">$300</th>
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 <br>
@@ -472,6 +586,11 @@
                 <br>
                 <p style="font-weight:bold">Please call the studio at (216) 227-9710 to purchase your class package!</p>
                 <!--/.row-->
+                <div class="gap"></div>
+
+                <div class="col-md-12 text-center">
+                    <a class="btn btn-md" style="background-color:black; color:white; border-color:white" href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=238372&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=10%2f23%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1">Schedule a Class</a>
+                </div>
             </div>
 
             <div class="gap"></div>
@@ -486,324 +605,49 @@
             </div>
             <div class="gap"></div>
 
-            <div id="meet-the-team" class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Nicole Pfenning
-                                <small class="role muted">Cleveland</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#NicoleModal">Bio</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="container">
+                <div id="meet-the-team" class="row">
+                    <div class="col-md-2 col-sm-hidden col-xs-hidden"></div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Wanida Joy
-                                <small class="role muted">Cleveland</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#WanidaModal">Bio</a>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail" src="http://placehold.it/300x300" alt="">
+                            <div class="team-content">
+                                <h5>Emily Griffith
+                                    <small class="role muted">Cleveland</small>
+                                </h5>
+                                <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#EmilyModal">Bio</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Janice Spicuzza
-                                <small class="role muted" style="font-size:82%">Cleveland & Mayfield</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#JaniceModal">Bio</a>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail" src="images/instructors/rachel.png" alt="">
+                            <div class="team-content">
+                                <h5>Rachael Horton
+                                    <small class="role muted">Cleveland</small>
+                                </h5>
+                                <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#RachaelModal">Bio</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Erin Williams
-                                <small class="role muted" style="font-size:82%">Cleveland & Mayfield</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#ErinModal">Bio</a>
-                        </div>
-                    </div>
+
+                    <div class="col-md-2 col-sm-hidden col-xs-hidden"></div>
                 </div>
             </div>
-
-            <div id="meet-the-team" class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail fade-in" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Brittany Hansel
-                                <small class="role muted">Cleveland</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#BrittanyModal">Bio</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail fade-in" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Maya Soul
-                                <small class="role muted">Cleveland</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#MayaModal">Bio</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail fade-in" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Rachael Horton
-                                <small class="role muted" style="font-size:82%">Mayfield & Cleveland</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#RachaelModal">Bio</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail fade-in" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Irina Rom
-                                <small class="role muted">Mayfield</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#IrinaModal">Bio</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="meet-the-team" class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail fade-in" src="http://placehold.it/400x400" alt="">
-                        <div class="team-content">
-                            <h5>Mike Majer
-                                <small class="role muted">Cleveland</small>
-                            </h5>
-                            <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#MikeModal">Bio</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-xs-6"></div>
-                <div class="col-md-3 col-xs-6"></div>
-                <div class="col-md-3 col-xs-6"></div>
-            </div>
-    </div>
-    </div>
-    </div>
-    <!--/#meet-the-team-->
-    <div class="gap"></div>
-    <div class="gap"></div>
-    </div>
-    </section>
     </div>
 
 
     <!--Modals for Instructors-->
-    <div class="modal fade" id="NicoleModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">NICOLE PFENNING</h2>
-                </div>
-                <div class="modal-body">
-                    <br />
-                    <p>Nicole’s pole style is a little bit of everything. It’s hard for her to commit to one specific style.
-                        She started doing pole about 3-4 years ago and has been teaching for over a year. She wants her students
-                        to feel confident to try anything and have a good foundation to progress through pole at a safe pace.</p>
-                    <p>Nicole danced ballet for 13 years when she was younger and had to quit because she couldn’t afford it.
-                        Quitting such a huge passion of hers left her feeling empty and when she found pole it filled the
-                        void. She always wanted to teach dance and taking a pole class allowed her to fulfill that dream
-                        in a way she had not imagined. What she loves about pole is how it has let her truly be herself,
-                        to be the most fearless person she can be not only in dance but in all aspects of her life. Her favorite
-                        tricks are the ballerina spin, butterfly, and one arm spins.</p>
-                    <p>Outside of pole she has 11-12 years of healthcare experience working as a medical assistant and now she
-                        teaches it. She has grown up in Cleveland and absolutely loves everything about this city. She’s
-                        married and has 1 daughter and a dog. She enjoys spending time with her family, traveling and enjoying
-                        live music.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="WanidaModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">WANIDA JOY</h2>
-                </div>
-                <div class="modal-body">
-                    <br />
-                    <p>Wanida’s pole style is all about freedom of expression, sensuality, and confidence. While she loves to
-                        do fancy tricks and spins, Wanida finds the beauty of pole in each individual’s own expression and
-                        personality. Many of her classes focus on helping students find their own inner voice and learning
-                        how to express it. She hopes to help students feel empowered and confident in their own body and
-                        mind. She wants to help students create better body and mind awareness and find comfort in their
-                        own sensuality and soul. She aims to give students a safe place to explore and be themselves with
-                        no judgement so that they can lead a more authentic life both on and off the pole.</p>
-                    <p>Wanida started pole in January of 2014 and began teaching in January 2015. She had always been drawn
-                        to dance and sensual movement, and dabbled in gymnastics as a kid (the uneven bars being her favorite).
-                        Her favorite thing about pole is the freedom, strength, and confidence it has given her. Having lost
-                        her childhood best friend to complications from bulimia 10 years ago, she has wanted to help other
-                        women realize the beauty within themselves just as they are and to help them find their own strength
-                        and courage to truly be themselves in a world that is constantly trying to tell you that you aren’t
-                        good enough. What she loves about pole is the community of supportive women that help you see your
-                        greatness, especially when you’re unable to see it yourself. Her favorite tricks are superman, butterfly,
-                        and hair flips. </p>
-                    <p>Wanida also manages Be Studios so you will frequently see her at the front desk. Her biggest passion
-                        is pole, the studio, and it’s community of members. Outside of the studio, she also teaches yoga
-                        and meditation. She has the cutest little dog, Oliver. She loves to be outside, do pilates, go shopping,
-                        and eat lots of Thai food.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="JaniceModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">JANICE SPICUZZA</h2>
-                </div>
-                <div class="modal-body">
-                    <br />
-                    <p>Janice’s pole style is focused on strength and tricks. She started doing pole 3 years ago in April of
-                        2014 and has been teaching for 1 year. She started pole about six months after she lost her eight-year-old
-                        son due to complications from cerebral palsy. It was the start of the healing process for her. After
-                        spending months in bed unable to function, she doesn’t know what motivated her to try pole but she
-                        did. It was the first hour in six months that she was not lost in grief because she had to focus
-                        so hard on what she was doing that she couldn’t think about her loss. Little by little, pole strengthened
-                        her physically and mentally. She hopes to give her students that same sense of empowerment, confidence,
-                        and an inner strength that will carry people through hard times.</p>
-                    <p>What Janice loves about pole is the strength our our community and friendships. Her favorite part of
-                        pole is the strength that she has gained both physically and mentally. Her favorite tricks are jade,
-                        shooting star, and the holly drop.</p>
-                    <p>Outside of Be Studios, Janice loves to run and travel. She is an avid runner and has participated in
-                        a few triathlons and marathons. She also loves to spend time with her husband and beautiful children.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="ErinModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">ERIN WILLIAMS</h2>
-                </div>
-                <div class="modal-body">
-                    <br />
-                    <p>Erin doesn’t like to label her pole style but if she had to she’d call it sassy — a little too awkward
-                        to say it sexy, but her playful/flirty side definitely comes through. She tends to incorporate more
-                        strength based tricks, but she’s also been working on adding more fluidity to her movements as it
-                        doesn’t come naturally for her.</p>
-                    <p>Erin believes that exercise should be FUN and she likes to bring that energy to her classes. We each
-                        have our own unique abilities and strengths and she tries to nourish that in her students. She hopes
-                        that her students leave class feeling empowered to pursue their goals on and off the pole. She fell
-                        in love with pole because the only wrong way to pole dance is to do something that leads to injury;
-                        otherwise, you can just relax and experiment with different movements until you find your own flow.
-                        With regard to tricks, she enjoys the sense of accomplishment that she gets from progressing from
-                        barely being able to get into a new move to mastering it. Her absolute favorite trick is Superman,
-                        but she is also a huge fan of Gemini and Scorpio leg hangs (inside and outside leg hands), as well
-                        as the Peter Pan.</p>
-                    <p>Erin has been a pole student for about 3.5 years. She started teaching pole in May of 2017, but is an
-                        ACE certified group fitness instructor and has specialty certifications in FXP Hula Hoop and POUND
-                        which she has been teaching since 2015. Erin started her fitness journey by taking Zumba classes.
-                        She had read research studies suggesting that physical activity can be therapeutic and wanted something
-                        to help her deal with some of the emotional baggage that came with her divorce. After about a year
-                        of taking Zumba, she learned about pole fitness and was instantly attracted to it because it was
-                        so different from anything else she she would normally do. Shortly thereafter, she saw the Be Studios
-                        Groupon in an email and decided to take the plunge. It was one of the best decisions she’s made because
-                        she’s been hooked ever since. She’s always been kind of quiet and reserved, but pole has emboldened
-                        her to step outside of her comfort zone so that she can continue to evolve and grow as a person.
-                        She’s definitely an introvert at heart, but she’s now much more comfortable letting other faces of
-                        her personality shine through.</p>
-                    <p>Outside of pole Erin enjoys reading and spending time with family and friends. She’s also a closet Candy
-                        Crush addict — the Soda Saga version, not the original. She’s on level 1229. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="BrittanyModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">BRITTANY HANSEL</h2>
-                </div>
-                <div class="modal-body">
-                    <br />
-                    <p>Brittany doesn’t have a specific pole style but tends to gravitate towards strength moves. Dancing “sexy”
-                        doesn’t come naturally but she still tries! She hopes that her students find a safe place to express
-                        themselves and celebrate their accomplishments in her classes. She believes that the best part about
-                        teaching is how each client is different and brings their own style. Teaching different levels of
-                        dancers has helped her grasp when to help push and encourage people to help them succeed. She’s big
-                        on correct form and good spotting to help prevent injuries.</p>
-                    <p>Brittany loves that she can make pole whatever she wants. She can dance happy, mad, sad, use pole for
-                        a workout or for mental clarity. Ultimately the pole family/sisterhood is what keeps her coming back.
-                        She loves unique transitions and combos and doesn’t have a specific favorite trick. She’s been doing
-                        pole for about 5 years and teaching for 2 years. She got into pole because of a youtube video of
-                        Jenyne Butterfly when she was younger and always wanted to do it since then. She started during graduate
-                        school at BW and it was the best release for all her stress.</p>
-                    <p>Outside of pole she grew up racing bmx and still rides he bike a lot. She has a 5-year-old golden retriever
-                        fur-baby (Val) who loves to swim in the lake. She’s a hyperactive perrson so she’s always doing something
-                        like baking or crafting when she has time off.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="MayaModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">MAYA SOUL</h2>
-                </div>
-                <div class="modal-body">
-                    <br />
-                    <p>Maya Soul’s pole style is a stripped flow. She is focused on freedom of expression, simplicity, strength
-                        and flow. She hopes that her students are able to find the courage to accept themselves and the freedom
-                        to express themselves. She began doing pole because of the shame that she felt. She was sick of being
-                        ashamed of her body and her sensuality. Pole has helped her heal and regain her freedom and confidence.
-                        She has been doing pole for over 3 years and has been teaching off and on for 2 years.</p>
-                    <p>Outside of pole Maya Soul is interested in psychology, art therapy, finance, and being a badass. “Dim
-                        the lights. Divine speaks in flow.”</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="modal fade" id="RachaelModal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">RACHAEL HORTON</h2>
+                    <h2 class="modal-title">Rachael Horton</h2>
                 </div>
                 <div class="modal-body">
                     <br />
@@ -824,55 +668,33 @@
         </div>
     </div>
 
-
-    <div class="modal fade" id="IrinaModal" role="dialog">
+    <div class="modal fade" id="EmilyModal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">IRINA ROM</h2>
+                    <h2 class="modal-title">Emily Griffith</h2>
                 </div>
                 <div class="modal-body">
                     <br />
-                    <p>Irina loves power moves and static pole. Recently she’s been getting more into exotic pole as well. She
-                        came to her first class after having been convinced by a friend and fell in love with pole immediately.
-                        She’s been doing pole off and on for 4 years and has gained more interest over the past couple of
-                        years and pushed herself to grow and improve. She’s been teaching for 2 years and wants her students
-                        to be able to execute moves with no confusion. She loves teaching beginners because she loves to
-                        see them nail the moves and the excitement on their faces. Irina loves pole because it is so diverse.
-                        There are so many styles and there is no ceiling. You can improve and continue to grow as much as
-                        you want to. Her favorite moves are handsprings, handstands and split moves.</p>
-                    <p>Outside of pole she also loves lyra (aerial hoop), working out and relaxing when she can. She is a RN
-                        at the Cleveland Clinic on a pulmonary/cardiac floor. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="MikeModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">MIKE MAJER</h2>
-                </div>
-                <div class="modal-body">
-                    <br />
-                    <p>The strange hand of fate landed Mike into the Pole classroom and now, 2 years later, he is here to teach
-                        others the same tricks that got him addicted to Pole.</p>
-                    <p>After being cast in a show as a character with some Pole skills, Mike took a class thinking that he could
-                        quickly learn a few tricks to impress the crowd. Well, they didn’t use a pole in the production,
-                        but Mike was hooked. For the past 2 years he has been working on perfecting a Flagpole deadlift into
-                        the Brass Monkey. It’s getting there. Mike fell in love with atmosphere of the studio as well as
-                        those moments where you finally nail that move that you have been working on for months.</p>
-                    <p>Mike is a frequent performer with the North Coast Men’s Chorus and has performed around Cleveland at
-                        Convergence-Continuum, Beck Center, Cassidy Theatre, Weathervane Playhouse, Workshop Players, and
-                        Huntington Playhouse. Some of his recent roles in shows include: Joe Hardy in “Hardy Boys and the
-                        Secret of the Old Queen”, Mitch Maypole in “Saucy Jack and the Space Vixens”, The Bird Statue in
-                        “Map of Virtue”, Nathan Leopold in “Thrill Me”, John Quincy Adams in “Bloody Bloody Andrew Jackson”,
-                        and many more!</p>
+                    <p>Emily loves all aspects of aerial dance, but when it comes to choreography she prefers to keep it slightly
+                        more aggressive. She likes fast pace, high silk climbing with dramatic drops. She loves aerial silks
+                        because of the endless possibilities that they provide to express yourself. You can be great at floor
+                        work and incorporate a lot of your routine as that. Or you can be awful at floor work and focus more
+                        on in the air moves. Your dance can reflect ballet style routine or a more aggressive routine. The
+                        creative they allow is endless!</p>
+                    <p>Emily started doing aerial silks as a fun easy way to work out because she hated to go to the gym. She
+                        had no idea how much of it would become a part of her life! She has been doing aerial silks for 5
+                        years and teaching for almost 2 years. She hopes that her students gain the tools they need to open
+                        up their creativity and find their own style of dance, while also pushing their limits and helping
+                        them conquer routines and transitions that they may not master right away. As for herself, she prefers
+                        does that are strengthening. Anything that she can’t get not he first try and actually require her
+                        to work towards.</p>
+                    <p>Outside of aerial silks, she loves her pets and rescuing fur babies. She likes to ride her motorcycle
+                        and she also has three kids who take up most of her time. They spend their weekends camping, fishing,
+                        and boating. She has a bachelor’s degree in Biology from Cleveland State and really just loves anything
+                        science related.</p>
                 </div>
             </div>
         </div>
