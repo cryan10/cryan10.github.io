@@ -2,6 +2,18 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+#friendsofbesection{
+    border:solid black 4px;
+    background-color:rgba(255, 255, 255, 0.856);
+    padding: 20px 20px 40px 20px;
+}
+
+#friendsofbe{
+padding-top:120px !important;
+padding-bottom:1px !important;
+}
+
+
 .btn.btn-md:hover{
     background-color:rgba(0, 0, 0, 0.89) !important;
 }
