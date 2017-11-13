@@ -2,6 +2,33 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+
+
+
+
+.panel button{
+    border:solid white 2px;
+    background-color:black;
+    color:white !important;
+}
+
+.panel button:hover{
+    border:solid white 2px;
+    background-color:rgb(105, 105, 105);
+    color:white;
+}
+
+.panel{
+    background-color:rgb(24, 24, 24);
+}
+
+#fleurSchedule{
+    border:solid white 4px;
+    background-color:rgb(24, 24, 24);
+    padding: 10px 20px 40px 20px;
+}
+
+
 #friendsofbesection{
     border:solid black 4px;
     background-color:rgba(255, 255, 255, 0.856);
