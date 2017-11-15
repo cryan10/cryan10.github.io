@@ -91,6 +91,38 @@ jQuery(document).ready(function($){
    }
 });
 
+$(document).ready(function () {
+  changeElements();
+
+   $(window).resize(function() {
+       changeElements();
+   });
+});
+
+function changeElements(){
+if ($(window).width() < 990) {
+  $('.linkedDropDown').removeAttr('href');
+}
+else{
+  $('.linkedDropDown').attr('href');  
+}
+}
+
+
+/*
+$(function(){
+  
+  $(window).bind("resize",function(){
+      console.log($(this).width());
+      if($(this).width() < 990){
+      $('.linkedDropDown').removeAttr('href');
+      }
+      if($(this).width() >= 990){
+        $('.linkedDropDown').attr('href');
+      }
+  })
+  })
+*/
 
 /*-----------------------------------------------------------------------------------*/
 /*  SEARCH BAR
