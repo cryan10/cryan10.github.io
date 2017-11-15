@@ -91,7 +91,7 @@ jQuery(document).ready(function($){
    }
 });
 
-$(document).ready(function () {
+/*$(document).ready(function () {
   changeElements();
 
    $(window).resize(function() {
@@ -106,7 +106,7 @@ if ($(window).width() < 990) {
 else{
   $('.linkedDropDown').attr('href');  
 }
-}
+}*/
 
 
 /*
