@@ -2398,7 +2398,7 @@ img.author-box-image {
 .backstretch:before {
     content: '';
     background-image: none !important;
-    background-color: rgba(0,0,0,0.4)
+    background-color: black;
 }
 
 #tagWrapper {
