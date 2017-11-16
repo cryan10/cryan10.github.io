@@ -1377,11 +1377,10 @@ ul.rss li::before {
 
 #footer {
     margin-top: 40px;
-    background-color: #101010;
+    background-color: black;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #eee;
-    border-top: 1px solid #333;
 }
 
 #footer a,
@@ -1672,11 +1671,11 @@ img.author-box-image {
 
 #footer-wrapper {
     z-index: 1;
-    padding-top: 60px;
+    padding-top: 6px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #202020;
+    background-color: transparent;
 }
 
 .widget-img {
