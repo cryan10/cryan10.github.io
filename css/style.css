@@ -11,6 +11,10 @@
 }
 
 
+.media-body{
+    padding-bottom:20px !important;
+}
+
 #fleurSchedule{
     border:solid white 4px;
     background-color:rgb(24, 24, 24);
@@ -1203,7 +1207,7 @@ ul.tag-cloud li {
 }
 
 .service-block .media-heading {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-size: 16px;
 }
 
