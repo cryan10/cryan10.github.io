@@ -1385,6 +1385,7 @@ ul.rss li::before {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #eee;
+    font-size:12px;
 }
 
 #footer a,
