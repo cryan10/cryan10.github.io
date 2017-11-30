@@ -11,6 +11,10 @@
 }
 
 
+.desktopNavBar li.dropdown:hover{
+    display: block;
+}
+
 .media-body{
     padding-bottom:20px !important;
 }
