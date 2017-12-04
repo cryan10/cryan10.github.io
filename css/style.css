@@ -11,6 +11,11 @@
 }
 
 
+.pictureDescription{
+    padding-right:20px !important;
+}
+
+
 .desktopNavBar li.dropdown:hover{
     display: block;
 }
