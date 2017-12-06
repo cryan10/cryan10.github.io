@@ -14,6 +14,7 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -29,7 +30,7 @@
         jQuery(document).ready(function ($) {
             'use strict';
             jQuery('body').backstretch([
-                "images/blackbackground.jpg",
+                "images/sauna/blackbackground.jpg"
             ]);
 
             $("#mapwrapper").gMap({
@@ -54,10 +55,6 @@
                 latitude: 40.7566,
                 longitude: -73.9863,
                 zoom: 14
-            });
-
-            $('.carousel').carousel({
-                interval: 8000
             });
         });
     </script>
@@ -292,27 +289,202 @@
 
 
     <div id="content-wrapper">
-        <section class="white">
+        <section id="polepartypricing" class="white">
             <div class="container">
-                <div class="gap"></div>
+                <div class="row text-center">
+                    <div class="hidden-sm hidden-xs col-md-3">
+                        <img style="border:1px solid rgb(240, 240, 240)" src="http://placehold.it/230x230"></img>
+                    </div>
+                    <div class=" col-md-3">
+                        <img style="border:1px solid rgb(240, 240, 240)" src="http://placehold.it/230x230"></img>
+                    </div>
+                    <div class="hidden-sm hidden-xs col-md-3">
+                        <img style="border:1px solid rgb(240, 240, 240)" src="http://placehold.it/230x230"></img>
+                    </div>
+                    <div class="hidden-sm hidden-xs col-md-3">
+                        <img style="border:1px solid rgb(240, 240, 240)" src="http://placehold.it/230x230"></img>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12">
                         <br>
-                        <h1 style="font-family: Allura, cursive">Info Coming Soon...</h1>
+                        <p>Gather your friends together for a private celebration. Allow yourself to have fun and let loose
+                            in our beautiful, nonjudgmental space. This is a time for you to learn and experience something
+                            new and fun. Whether you are shy or outgoing, find your own sexy style and let it shine.</p>
+                        <p>Have a party to celebrate a...</p>
+                        <ul>
+                            <li>Girls' night out</li>
+                            <li>Bachelorette party</li>
+                            <li>Birthday</li>
+                            <li>Any other special occasion</li>
+                        </ul>
+                        <p>We offer parties 1-2 hours in length tailored to the desires of the host. Parties include introductory
+                            aerial tricks and techniques. You can come dressed up or casually comfortable. Cameras are welcomed,
+                            and parties also include a group photo.
+                        </p>
+                        <p>Guests are welcome to bring drinks of their choice; we supply cups. The party host will receive a
+                            special gift bag which includes a Be Studios tank top and gift certificate for a free class.</p>
                         <br>
                     </div>
                 </div>
-
+                <!--/.row-->
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center gap section-heading">
+                            <br>
+                            <h2 class="main-title">Our Party Packages</h2>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Be Flirty</h4>
+                        <ul>
+                            <li>1 hour mini-party</li>
+                            <li>5+ people</li>
+                            <li>$25 per person</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Be Fun</h4>
+                        <ul>
+                            <li>1.5 hour pole party</li>
+                            <li>5-10 people</li>
+                            <li>$35 per person</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Be Fabulous</h4>
+                        <ul>
+                            <li>2 hour pole party</li>
+                            <li>11+ people</li>
+                            <li>$30 per person</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>Important Information</h5>
+                        <ul>
+                            <li>
+                                <strong>You can have less than 5 people at a party,</strong> but you will need to pay as if 5 people
+                                were in attendance.</li>
+                            <li>The host of the party will be responsible to collect from their guests prior to the party (50%
+                                or 100% if desired).</li>
+                            <li>If you put down a 50% deposit based off the minimum amount of guests you set, this will be what
+                                you need to pay regardless if a lesser amount show. Any additional guests will pay after
+                                the party is over. THIS DEPOSIT IS NON-REFUNDABLE. </li>
+                            <li>If you desire additional time, please speak to us for details.</li>
+                        </ul>
+                        <br>
+                        <p style="font-weight:bold">Please call the studio at (216) 227-9710 to schedule your event!</p>
+                </div>
+            </div>
+            <!--/.row-->
+        </section>
+        <section id="instructors" class="white">
 
+            <div class="center gap section-heading">
+                <h2 class="main-title">Our Instructors</h2>
+                <hr>
+            </div>
             <div class="gap"></div>
+
+            <div class="container">
+                <div id="meet-the-team" class="row">
+                    <div class="col-md-2 col-sm-hidden col-xs-hidden"></div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail" src="http://placehold.it/200x200" alt="">
+                            <div class="team-content">
+                                <h5>Emily Griffith
+                                    <small class="role muted">Cleveland</small>
+                                </h5>
+                                <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#EmilyModal">Bio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail" src="images/instructors/rachael.png" alt="">
+                            <div class="team-content">
+                                <h5>Rachael Horton
+                                    <small class="role muted">Cleveland</small>
+                                </h5>
+                                <a class="btn btn-sm" style="background-color:black; color:white" data-toggle="modal" data-target="#RachaelModal">Bio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-hidden col-xs-hidden"></div>
+                </div>
+                <div class="gap"></div>
+            </div>
         </section>
     </div>
 
+    <!--Modals for Instructors-->
+    <div class="modal fade" id="RachaelModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">Rachael Horton</h2>
+                </div>
+                <div class="modal-body">
+                    <br />
+                    <p>Rachael’s pole style is dramatic. She loves to dance to darker song lyrics to show there is grace through
+                        life’s toughest times. She started pole because she wanted to exercise in a way that created art.
+                        For a long time she struggled with severe depression and with the help of pole she was taken off
+                        of medicine and found joy in every aspect of life. Rachael’s favorite thing about pole is the expression
+                        of love for ones self. She learned to love herself through depression because of pole. She wants
+                        to share that love with her students and hopes that most of all her students feel encouraged in class.
+                        She wants them to know that they are capable of amazing things they did not know they could do. Rachael
+                        has been doing pole for about 2 years and recently started teaching in the spring of 2017. Her favorite
+                        moves are leg hands and ballerina.</p>
+                    <p>Outside of pole Rachael enjoys knitting, adventuring to new places, trying new foods and working to make
+                        others lives more fulfilling. She also loves to design clothing and studied fashion at the University
+                        of Akron. </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-
-
+    <div class="modal fade" id="EmilyModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">Emily Griffith</h2>
+                </div>
+                <div class="modal-body">
+                    <br />
+                    <p>Emily loves all aspects of aerial dance, but when it comes to choreography she prefers to keep it slightly
+                        more aggressive. She likes fast pace, high silk climbing with dramatic drops. She loves aerial silks
+                        because of the endless possibilities that they provide to express yourself. You can be great at floor
+                        work and incorporate a lot of your routine as that. Or you can be awful at floor work and focus more
+                        on in the air moves. Your dance can reflect ballet style routine or a more aggressive routine. The
+                        creative they allow is endless!</p>
+                    <p>Emily started doing aerial silks as a fun easy way to work out because she hated to go to the gym. She
+                        had no idea how much of it would become a part of her life! She has been doing aerial silks for 5
+                        years and teaching for almost 2 years. She hopes that her students gain the tools they need to open
+                        up their creativity and find their own style of dance, while also pushing their limits and helping
+                        them conquer routines and transitions that they may not master right away. As for herself, she prefers
+                        does that are strengthening. Anything that she can’t get not he first try and actually require her
+                        to work towards.</p>
+                    <p>Outside of aerial silks, she loves her pets and rescuing fur babies. She likes to ride her motorcycle
+                        and she also has three kids who take up most of her time. They spend their weekends camping, fishing,
+                        and boating. She has a bachelor’s degree in Biology from Cleveland State and really just loves anything
+                        science related.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="footer-wrapper">
         <footer id="footer" class="">
