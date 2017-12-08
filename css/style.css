@@ -69,7 +69,10 @@ padding-bottom:1px !important;
     font-weight:400;
 }
 
-table{background-color: rgba(0, 0, 0, 0.829);}
+table{
+    background-color: rgba(0, 0, 0, 0.918);
+    border-radius:4px;
+}
 
 th{
     font-family: allura, cursive;
