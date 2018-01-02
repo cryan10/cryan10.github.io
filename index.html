@@ -30,30 +30,6 @@
             jQuery('body').backstretch([
                 "images/sauna/blackbackground.jpg"
             ]);
-
-            $("#mapwrapper").gMap({
-                controls: false,
-                scrollwheel: false,
-                markers: [{
-                    latitude: 40.7566,
-                    longitude: -73.9863,
-                    icon: {
-                        image: "images/marker.png",
-                        iconsize: [44, 44],
-                        iconanchor: [12, 46],
-                        infowindowanchor: [12, 0]
-                    }
-                }],
-                icon: {
-                    image: "images/marker.png",
-                    iconsize: [26, 46],
-                    iconanchor: [12, 46],
-                    infowindowanchor: [12, 0]
-                },
-                latitude: 40.7566,
-                longitude: -73.9863,
-                zoom: 14
-            });
         });
     </script>
 </head>
@@ -656,26 +632,6 @@
             </div>
         </section>
 
-        <!--<section id="friendsofbe" class="white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                        <div class="center gap section-heading" id="friendsofbesection">
-                            <h2 class="main-title">Friends of Be</h2>
-                            <hr>
-                            <h4>Our favorite places in Cleveland</h4>
-                            <br>
-                            <br>
-                            <a class="btn btn-md" style="background-color:black; color:white;border:solid; border-width:3px; border-color:white" href="photography.html">View Our List</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4"></div>
-                    
-                </div>
-            </div>
-        </section>-->
-
         <section id="contact" class="white">
             <div class="container">
                 <div class="center gap section-heading">
@@ -711,7 +667,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6 hidden-xs">
                         <h4>Mayfield Pop-Up Studio in Anytime Fitness</h4>
-                        <img class="img-responsive" src="images/studio/mayfield.png"/>
+                        <img class="img-responsive" src="images/studio/mayfield.png" />
                         <p>
                             <br>
                             <span class="fa fa-home"></span> 5878 Mayfield Rd, Mayfield Heights, OH 44124
@@ -770,7 +726,7 @@
     </div>
 
     <div id="footer-wrapper">
-        <footer id="footer" class="">
+        <footer id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6" style="font-size:24px !important">
@@ -797,6 +753,11 @@
                     </div>
                 </div>
             </div>
+            <!-- Begin Constant Contact Active Forms -->
+            <script> var _ctct_m = "a0997f057ce95cd2fd4fc852514c8daf"; </script>
+            <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+            <!-- End Constant Contact Active Forms -->
+
         </footer>
         <!--/#footer-->
     </div>
