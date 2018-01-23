@@ -13,10 +13,6 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
     <script src="js/jquery.js"></script>
     <link rel="shortcut icon" href="images/logo/logo_144.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/logo/logo_144.png">
@@ -40,30 +36,6 @@
             jQuery('body').backstretch([
                 "images/blackbackground.jpg"
             ]);
-
-            $("#mapwrapper").gMap({
-                controls: false,
-                scrollwheel: false,
-                markers: [{
-                    latitude: 40.7566,
-                    longitude: -73.9863,
-                    icon: {
-                        image: "images/marker.png",
-                        iconsize: [44, 44],
-                        iconanchor: [12, 46],
-                        infowindowanchor: [12, 0]
-                    }
-                }],
-                icon: {
-                    image: "images/marker.png",
-                    iconsize: [26, 46],
-                    iconanchor: [12, 46],
-                    infowindowanchor: [12, 0]
-                },
-                latitude: 40.7566,
-                longitude: -73.9863,
-                zoom: 14
-            });
 
             $('.carousel').carousel({
                 interval: 8000
