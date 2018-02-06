@@ -10,6 +10,13 @@
  }
 }
 
+.contactButtons{
+    font-size:37px;
+}
+
+.innerContactButtons{
+    padding-left: 30px;
+}
 
 .pictureDescription{
     padding-right:20px !important;
