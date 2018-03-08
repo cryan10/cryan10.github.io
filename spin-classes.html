@@ -40,8 +40,36 @@
         jQuery(document).ready(function ($) {
             'use strict';
             jQuery('body').backstretch([
-                "images/sauna/blackbackground.jpg"
+                "images/blackbackground.jpg",
             ]);
+
+            $("#mapwrapper").gMap({
+                controls: false,
+                scrollwheel: false,
+                markers: [{
+                    latitude: 40.7566,
+                    longitude: -73.9863,
+                    icon: {
+                        image: "images/marker.png",
+                        iconsize: [44, 44],
+                        iconanchor: [12, 46],
+                        infowindowanchor: [12, 0]
+                    }
+                }],
+                icon: {
+                    image: "images/marker.png",
+                    iconsize: [26, 46],
+                    iconanchor: [12, 46],
+                    infowindowanchor: [12, 0]
+                },
+                latitude: 40.7566,
+                longitude: -73.9863,
+                zoom: 14
+            });
+
+            $('.carousel').carousel({
+                interval: 8000
+            });
         });
     </script>
 </head>
@@ -174,8 +202,13 @@
                             <div class="col-md-12">
                                 <div class="center section-heading">
                                     <img class="img-responsive" src="images/logo/BeStudiosXS.png" />
-                                    <h2 class="main-title">Performances</h2>
+                                    <h2 class="main-title">Spin</h2>
                                     <hr>
+                                    <p>At our Cleveland location</p>
+                                    <br>
+                                    <!--<a class="btn btn-md" style="background-color:black; color:white; border-color:white" href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=238372&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=10%2f23%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1"
+                                        target="_blank">Schedule a Class</a>-->
+                                    <br>
                                     <br>
                                 </div>
                             </div>
@@ -192,83 +225,16 @@
 
 
     <div id="content-wrapper">
-        <section id="about-us" class="white">
-            <div class="container">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-md-3 col-sm-4">
-                            <img class="img-responsive" style="border:1px solid rgb(240, 240, 240)" src="images/perform/perform1.jpg"></img>
-                        </div>
-                        <div class="col-md-3 col-sm-4 hidden-xs">
-                            <img class="img-responsive" style="border:1px solid rgb(240, 240, 240)" src="images/perform/perform3.jpg"></img>
-                        </div>
-                        <div class="col-md-3 col-sm-4 hidden-xs">
-                            <img class="img-responsive" style="border:1px solid rgb(240, 240, 240)" src="images/perform/perform2.jpg"></img>
-                        </div>
-                        <div class="col-md-3 hidden-sm hidden-xs">
-                            <img class="img-responsive" style="border:1px solid rgb(240, 240, 240)" src="images/perform/perform4.jpg"></img>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <br>
-                            <br>
-                            <p>Are you looking to enhance your next party or event? Our Be Studios performance troupe, Orchid
-                                Body, offers extraordinary performances on pole, aerial silks, and aerial hoop (lyra). Experience
-                                art, movement, and flow with our stunning performers and exciting routines.
-                            </p>
-                            <p>We are available for public events, corporate events, concerts, private parties, and more! We
-                                offer a variety of styles from family-friendly performances focusing on strength and acrobatics,
-                                to lyrical performances focusing on movement, and exotic performances for adults.</p>
-                            <p>We offer solo or group performances that are personalized for your event. Professional photography
-                                is also available at an additional fee. Please call (216) 227-9710 or email us at
-                                <a href="mailto:info@lovebestudios.com">
-                                    <u>info@lovebestudios.com</u>
-                                </a>
-                                for more information.</p>
-                        </div>
-                    </div>
-                </div>
+        <section id="about-us">
+            <div class="container text-center" style="background-color:black">
+                <h1 class="main-title" style="font-size:40px; color:white; padding-bottom:100px">COMING SPRING 2018</h1>
             </div>
-            <!--/#meet-the-team-->
-            <div class="gap"></div>
             <div class="gap"></div>
         </section>
     </div>
+    <!--/#meet-the-team-->
 
-    <div id="footer-wrapper">
-        <footer id="footer" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6" style="font-size:24px !important">
-                        <a href="https://www.instagram.com/bestudios/" target="_blank" class="fa fa-instagram" style="padding-right:10px"></a>
-                        <a href="https://www.facebook.com/bestudioscleveland/" target="_blank" class="fa fa-facebook" style="padding-right:10px"></a>
-                        <a href="https://www.youtube.com/channel/UCFQFXGjYu4Dyz1VKRsL7Ddw/featured" target="_blank" class="fa fa-youtube" style="padding-right:10px"></a>
-                        <a href="https://www.pinterest.com/bestudios" target="_blank" class="fa fa-pinterest" style="padding-right:10px"></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-8">
-                        <br>
-                        <p> &copy; 2017 Created by
-                            <a target="_blank" href="https://www.linkedin.com/in/carrieryan10/">Carrie Ryan</a>, built with
-                            <a target="_blank" href="http://www.distinctivethemes.com" title="Premium Themes and Templates">Distinctive Themes</a>. All Rights Reserved. </p>
-                    </div>
-                    <div class="col-sm-4">
-                        <ul class="pull-right">
-                            <li>
-                                <a id="gototop" class="gototop" href="#main-slider">
-                                    <i style="font-size:24px" class="fa fa-chevron-up"></i>
-                                </a>
-                            </li>
-                            <!--#gototop-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--/#footer-->
-    </div>
+
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
