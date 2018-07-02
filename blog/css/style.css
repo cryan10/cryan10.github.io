@@ -175,6 +175,14 @@ h6 {
     font-weight: 700;
 }
 
+p{
+    font-weight:400 !important;
+}
+
+figcaption{
+    font-weight:300;
+}
+
 a {
     color: #222;
     -webkit-transition: 300ms;
