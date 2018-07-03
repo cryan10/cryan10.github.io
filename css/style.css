@@ -10,6 +10,18 @@
  }
 }
 
+.competitionCarouselImg img {
+    width: auto;
+    height: 390px;
+    max-height: 390px;
+  }
+
+.xsmallCompetitionCarouselImg img {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+  }  
+
 .contactButtons{
     font-size:37px;
 }
