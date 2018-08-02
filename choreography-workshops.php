@@ -1,5 +1,5 @@
 <?php>
 header("HTTP/1.1  301 Moved Permanently");
-header("Location: http://www.lovebestudios.com/pole-fitness.html");
+header("Location: https://www.lovebestudios.com/pole-fitness.html");
 exit();
 ?>
