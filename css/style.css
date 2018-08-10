@@ -724,6 +724,16 @@ div.pp_overlay {
     font-size: 14px;
 }
 
+
+.team-content p{
+    text-transform:uppercase;
+    color:#616161;
+}
+.team-content h5{
+    font-family: Lato, sans-serif;
+    color:black;
+}
+
 .img-thumbnail {
     border: 0;
 }
