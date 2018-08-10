@@ -10,6 +10,17 @@
  }
 }
 
+
+@font-face {
+	font-family: 'dharma';
+	src: url('DharmaTypeStereoGothic150.eot');
+	src: url('DharmaTypeStereoGothic150.woff') format('woff'), url('DharmaTypeStereoGothic150.ttf') format('truetype'), url('DharmaTypeStereoGothic150.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 .competitionCarouselImg img {
     width: auto;
     height: 390px;
@@ -75,12 +86,11 @@ padding-bottom:1px !important;
 }
 
 .modal-title{
-    font-family: allura, cursive;
-    letter-spacing: 2px;
-    font-size: 36px;
+    font-family: dharma,Sans-Serif;
+    font-size: 24px;
     color: black;
     text-align: center;
-    font-weight:900;
+    font-weight:700;
 }
 
 .modal-body{
@@ -94,9 +104,8 @@ table{
 }
 
 th{
-    font-family: allura, cursive;
-    letter-spacing: 1.1px;
-    font-size: 36px;
+    font-family: dharma,Sans-Serif;
+    font-size: 20px;
     color: white;
     text-align: center;
 }
@@ -202,7 +211,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Lato, sans-serif;
+    font-family: dharma,Sans-Serif;
     font-weight: 700;
 }
 
@@ -888,7 +897,7 @@ ul.tag-cloud li {
 }
 
 .navbar-inverse .navbar-brand {
-    font-family: Lato, sans-serif;
+    font-family:dharma,Sans-Serif;
     font-size: 36px;
     line-height: 50px;
     color: #fff;
@@ -2392,7 +2401,11 @@ img.author-box-image {
 
 .main-title {
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 2px;
+}
+
+.main-title h2{
+    font-size:32px;
 }
 
 .section-heading p {
