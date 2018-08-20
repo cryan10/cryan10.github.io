@@ -21,15 +21,6 @@
 }
 
 
-#contact h4{
-    font-family: Lato, sans-serif;
-}
-
-#instagramfeed h4{
-    font-family: Lato, sans-serif;
-
-}
-
 .competitionCarouselImg img {
     width: auto;
     height: 390px;
@@ -85,9 +76,11 @@
 .modal-title{
     font-family: Lato,Sans-Serif;
     font-size: 24px;
+    text-transform:uppercase;
+    letter-spacing: 0.6px;
     color: black;
     text-align: center;
-    font-weight:700;
+    font-weight:500;
 }
 
 .modal-body{
@@ -102,6 +95,9 @@ table{
 
 th{
     font-family: Lato,Sans-Serif;
+    text-transform:uppercase;
+    letter-spacing: 0.6px;
+    font-weight:500;
     font-size: 20px;
     color: white;
     text-align: center;
