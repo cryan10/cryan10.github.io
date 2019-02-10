@@ -1,24 +1,6 @@
 /*-----------------------------------------------------------------------------------*/
 /*  PORTFOLIO
 /*-----------------------------------------------------------------------------------*/
-$(window).load(function(){
-  'use strict';
-  var portfolio_selectors = $('.portfolio-filter li a');
-  if(portfolio_selectors!='undefined'){
-    var portfolio = $('.portfolio-items');
-    portfolio.isotope({
-      itemSelector : 'li',
-      layoutMode : 'fitRows'
-    });
-    portfolio_selectors.on('click', function(){
-      portfolio_selectors.removeClass('active');
-      $(this).addClass('active');
-      var selector = $(this).attr('data-filter');
-      portfolio.isotope({ filter: selector });
-      return false;
-    });
-  }
-});
 
 jQuery(function($) {
 'use strict';
@@ -91,67 +73,6 @@ jQuery(document).ready(function($){
    }
 });
 
-/*$(document).ready(function () {
-  changeElements();
-
-   $(window).resize(function() {
-       changeElements();
-   });
-});
-
-function changeElements(){
-if ($(window).width() < 990) {
-  $('.linkedDropDown').removeAttr('href');
-}
-else{
-  $('.linkedDropDown').attr('href');  
-}
-}*/
-
-
-/*
-$(function(){
-  
-  $(window).bind("resize",function(){
-      console.log($(this).width());
-      if($(this).width() < 990){
-      $('.linkedDropDown').removeAttr('href');
-      }
-      if($(this).width() >= 990){
-        $('.linkedDropDown').attr('href');
-      }
-  })
-  })
-*/
-
-/*-----------------------------------------------------------------------------------*/
-/*  SEARCH BAR
-/*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function($){
-'use strict';
-  jQuery('#search-wrapper, #search-wrapper input').hide();
-
-	jQuery('span.search-trigger').click(function(){
-		jQuery('#search-wrapper').slideToggle(0, function() {
-			var check=$(this).is(":hidden");
-			if(check == true) {
-		  		jQuery('#search-wrapper input').fadeOut(600);
-			} else {
-				jQuery("#search-wrapper input").focus();
-				jQuery('#search-wrapper input').slideDown(200);
-			}
-		});
-	});
-
-  $('#main-slider .carousel-content').flexVerticalCenter({ cssAttribute: 'padding-top' });
-
-});
-
-/*-----------------------------------------------------------------------------------*/
-/*  NICESCROLL
-/*-----------------------------------------------------------------------------------*/
- 
-
 /*-----------------------------------------------------------------------------------*/
 /*  ANIMATE
 /*-----------------------------------------------------------------------------------*/
@@ -214,36 +135,6 @@ $(document).ready(function() {
 
 });
 
-/*-----------------------------------------------------------------------------------*/
-/*  CONTACT FORM
-/*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function($){
-'use strict';
-
-  $('#contactform').submit(function(){
-    var action = $(this).attr('action');
-    $("#message").slideUp(750,function() {
-    $('#message').hide();
-    $('#submit').attr('disabled','disabled');
-    $.post(action, {
-      name: $('#name').val(),
-      email: $('#email').val(),
-      website: $('#website').val(),
-      comments: $('#comments').val()
-    },
-      function(data){
-        document.getElementById('message').innerHTML = data;
-        $('#message').slideDown('slow');
-        $('#submit').removeAttr('disabled');
-        if(data.match('success') != null) $('#contactform').slideUp('slow');
-        $(window).trigger('resize');
-      }
-    );
-    });
-    return false;
-  });
-  
-});
 
 /*-----------------------------------------------------------------------------------*/
 /*  PRELOADER
