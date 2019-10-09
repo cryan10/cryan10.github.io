@@ -1,7 +1,7 @@
 /* IMPACT - By DistinctiveThemes */
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto'); /*I don't think this font is used anywhere on the site*/
 
 
 @media (min-width:990px){
@@ -249,7 +249,7 @@ blockquote {
 /*-----------------------------------------------------------------------------------*/
 
 
-/*  Slider
+/*  Slider -- Is this even in the website anymore?
 /*-----------------------------------------------------------------------------------*/
 
 #main-slider {
@@ -1176,7 +1176,7 @@ textarea#message {
 /*-----------------------------------------------------------------------------------*/
 
 
-/*  TESTIMONIALS
+/*  TESTIMONIALS -- Is this still on the site?
 /*-----------------------------------------------------------------------------------*/
 
 #quote-carousel .carousel-indicators {
