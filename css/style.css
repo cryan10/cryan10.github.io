@@ -29,7 +29,7 @@
     letter-spacing: 2px;
 }
 
-#fleurSubtitle{
+.fleurSubtitle{
     text-transform:uppercase; 
     letter-spacing:1.5px;
     font-weight:500;
@@ -68,7 +68,7 @@
     padding-bottom:20px !important;
 }
 
-#fleurSchedule{
+.fleurSchedule{
     border:solid white 4px;
     background-color:rgb(24, 24, 24);
     padding: 10px 20px 40px 20px;
