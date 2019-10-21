@@ -1464,6 +1464,8 @@ textarea#message {
     }
 }
 
+
+/* 404 Page */
 .pageNotFound{
     color:white;
     background-color:black;
@@ -1499,4 +1501,6 @@ textarea#message {
     padding: 10px 15px;
     text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
 }
+
+/* END 404 Page */
 
