@@ -1463,3 +1463,40 @@ textarea#message {
         position: relative !important;
     }
 }
+
+.pageNotFound{
+    color:white;
+    background-color:black;
+    text-align: center;
+}
+
+.pageNotFound > section{
+    padding: 0;
+}
+
+.pageNotFoundParent{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+
+.pageNotFoundParent h1{
+        font-size: 44px;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        margin-top: 30px;
+}
+
+.pageNotFoundParent .btn {
+    border: 5px solid rgba(255, 255, 255, 0.9);
+    color: #fff;
+    border-radius: 0;
+    margin-top: 35px;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+

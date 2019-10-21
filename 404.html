@@ -29,21 +29,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/logo/logo_114.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/logo/logo_72.png">
     <link rel="apple-touch-icon-precomposed" href="images/logo/logo_57.png">
-
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            'use strict';
-            jQuery('body').backstretch([
-                "images/blackbackground.jpg"
-            ]);
-        });
-    </script>
 </head>
 <!--/head-->
 
-<body>
+<body class="pageNotFound">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQ48PGZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQ48PGZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="preloader"></div>
     <header class="navbar navbar-inverse navbar-fixed-top opaqued" role="banner">
@@ -145,43 +137,21 @@
         </div>
     </header>
 
-    <section id="main-slider" class="no-margin">
-        <div class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 hidden-xs">
-                                <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">404 ERROR</h2>
-                                    <br>
-                                    <p class="boxed animation animated-item-2">The page you are looking for doesn't
-                                        exist or has moved.
-                                    </p>
-                                    <br>
-                                    <br>
-                                    <a class="btn btn-md animation bounce-in" href="index.html">Return to Home</a>
-                                </div>
-                            </div>
-                            <div style="padding-top:150px !important" class="col-xs-12 hidden-sm hidden-md hidden-lg">
-                                <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">404 ERROR</h2>
-                                    <br>
-                                    <p class="boxed animation animated-item-2">The page you are looking for doesn't
-                                        exist or has moved.
-                                    </p>
-                                    <br>
-                                    <br>
-                                    <a class="btn btn-md animation bounce-in" href="index.html">Return to Home</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--/.item-->
+    <section>
+        <div class="pageNotFoundParent">
+            <div>
+                <h1>404 ERROR</h1>
+                <br>
+                <p>The page you are looking for doesn't
+                    exist or has moved.
+                </p>
+                <br>
+                <br>
+                <a class="btn btn-md animation bounce-in" href="index.html">Return to Home</a>
             </div>
-            <!--/.carousel-inner-->
+            <!--/.item-->
         </div>
+        <!--/.carousel-inner-->
         <!--/.carousel-->
     </section>
     <!--/#main-slider-->
