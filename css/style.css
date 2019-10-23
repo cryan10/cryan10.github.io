@@ -1522,7 +1522,20 @@ textarea#message {
     margin-right: auto;
 }
 
+@media only screen and (min-width: 1023px) {
+    .beLogoSectionChildButton .btn.btn-md{
+        width: 40%;
+    }
+}
+
+
 .beLogoSectionChild{
     max-width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+    .beLogoSectionChild{
+        max-width: 80%;
+    }
 }
 /*END BE Logo Section on all pages*/
