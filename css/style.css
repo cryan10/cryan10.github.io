@@ -37,59 +37,13 @@
     padding-left: 30px;
 }
 
-/*END Site-wide styling*/
-
-/*Fleur de Femme styling*/
-
-.fleurSubtitle{
-    text-transform:uppercase; 
-    letter-spacing:1.5px;
-    font-weight:500;
-}
-
-/*END Fleur de Femme styling*/
-
-
-/*Competition Program styling*/
-
-.competitionCarouselImg img {
-    width: auto;
-    height: 390px;
-    max-height: 390px;
-  }
-
-.xsmallCompetitionCarouselImg img {
-    width: auto;
-    height: 225px;
-    max-height: 225px;
-  }  
-
-/*END Competition Program styling*/
-
-
-
-
-
-
 .homepageDepartmentPhoto{
     padding-right:20px !important;
-}
-
-
-.desktopNavBar li.dropdown:hover{
-    display: block;
 }
 
 .media-body{
     padding-bottom:20px !important;
 }
-
-.fleurSchedule{
-    border:solid white 4px;
-    background-color:rgb(24, 24, 24);
-    padding: 10px 20px 40px 20px;
-}
-
 
 .btn.btn-md:hover{
     background-color:rgba(0, 0, 0, 0.89) !important;
@@ -155,30 +109,6 @@ td{
     float: none;
   } 
 
-.clearfix {
-    zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after {
-    display: table;
-    content: "";
-    line-height: 0;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.input-block-level {
-    display: block;
-    width: 100%;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 body {
     color: #222;
     background: #fcfcfc;
@@ -215,16 +145,6 @@ hr {
     font-weight: 400;
 }
 
-.btn-transparent {
-    border: 3px solid #fff;
-    background: transparent;
-    color: #fff;
-}
-
-.btn-transparent:hover {
-    border-color: rgba(255, 255, 255, 0.5);
-}
-
 a:hover,
 a:focus {
     color: #919191;
@@ -236,159 +156,58 @@ body > section {
     padding: 50px 0;
 }
 
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16/9 ratio */
-    padding-top: 30px;
-    /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
+.center {
+    text-align: center;
 }
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.team-content p{
+    text-transform:uppercase;
+    color:#616161;
+}
+.team-content h5{
+    font-family: Lato, sans-serif;
+    color:black;
 }
 
-blockquote {
-    background-color: #fff;
+.img-thumbnail {
+    border: 0;
 }
 
+/*END Site-wide styling*/
 
+/*Fleur de Femme styling*/
 
-/*-----------------------------------------------------------------------------------*/
-
-
-/*  Slider -- Is this even in the website anymore?
-/*-----------------------------------------------------------------------------------*/
-
-#main-slider {
-    position: relative;
-    z-index: 5;
-    color: #fff;
-}
-
-#main-slider .carousel-inner {
-    overflow: visible;
-}
-
-.backstretch:before {
-    content: '';
-    background-image: url(../images/overlays/04.png);
-    min-width: 100%;
-    height: 100%;
-    position: absolute;
-    display: block;
-    z-index: -1;
-}
-
-#main-slider .carousel h2 {
-    font-size: 44px;
-    color: #fff;
-    text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    margin-top: 30px;
-}
-
-#main-slider .carousel .btn {
-    border: 5px solid rgba(255, 255, 255, 0.9);
-    color: #fff;
-    border-radius: 0;
-    margin-top: 35px;
-    font-size: 26px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 10px 15px;
-    text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
-    z-index: 10px;
-}
-
-#main-slider .carousel .btn:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: white;
-}
-
-#main-slider .carousel .boxed {
-    padding: 10px 15px;
-    background-color: rgba(0, 0, 0, 0.2);
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-#main-slider .carousel .item {
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 0 !important;
-    opacity: 0;
-    top: 0;
-    position: absolute;
-    width: 100%;
-    display: block !important;
-    height: 600px;
-    -webkit-transition: opacity ease-in-out 500ms;
-    -moz-transition: opacity ease-in-out 500ms;
-    -o-transition: opacity ease-in-out 500ms;
-    transition: opacity ease-in-out 500ms;
-}
-
-#main-slider .carousel .item:first-child {
-    top: auto;
-    position: relative;
-}
-
-#main-slider .carousel .item.active {
-    opacity: 1;
-    -webkit-transition: opacity ease-in-out 500ms;
-    -moz-transition: opacity ease-in-out 500ms;
-    -o-transition: opacity ease-in-out 500ms;
-    transition: opacity ease-in-out 500ms;
-    z-index: 1;
-}
-
-.home-icon {
-    padding: 10px 15px;
-    background-color: rgba(0, 0, 0, 0.2);
-    clear: both;
-    display: block;
-    font-size: 78px;
-    margin: 100px auto 0;
-    position: relative;
-    width: 80px;
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-}
-
-#single-page-slider {
-    padding-top: 150px;
-}
-
-#single-page-slider .carousel {
-    z-index: 5 !important;
-    color: #fff;
-    text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
+.fleurSubtitle{
+    text-transform:uppercase; 
+    letter-spacing:1.5px;
+    font-weight:500;
 }
 
 
-/*-----------------------------------------------------------------------------------*/
-
-
-/*  Slider
-/*-----------------------------------------------------------------------------------*/
-
-#main-slider-page {
-    min-height: 350px;
-    z-index: 2 !important;
+.fleurSchedule{
+    border:solid white 4px;
+    background-color:rgb(24, 24, 24);
+    padding: 10px 20px 40px 20px;
 }
+
+/*END Fleur de Femme styling*/
+
+
+/*Competition Program styling*/
+
+.competitionCarouselImg img {
+    width: auto;
+    height: 390px;
+    max-height: 390px;
+  }
+
+.xsmallCompetitionCarouselImg img {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+  }  
+
+/*END Competition Program styling*/
 
 /* Start: Recommended Isotope styles */
 
@@ -453,56 +272,15 @@ blockquote {
     transition: none;
 }
 
-.project-controls {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.project-controls span {
-    position: relative;
-    bottom: 70px;
-    font-size: 60px;
-    display: block;
-}
-
-.project-controls span:hover {
-    cursor: pointer;
-}
-
 div.pp_overlay {
     z-index: 9999 !important;
 }
 
 
-#title h1 {
-    margin: 0;
-    font-size: 36px;
-    font-weight: 300;
-}
 
-.center {
-    text-align: center;
-}
 
-#meet-the-team .role {
-    margin-top: 10px;
-    display: block;
-    font-size: 14px;
-}
 
-.team-content p{
-    text-transform:uppercase;
-    color:#616161;
-}
-.team-content h5{
-    font-family: Lato, sans-serif;
-    color:black;
-}
 
-.img-thumbnail {
-    border: 0;
-}
 
 /*-----------------------------------------------------------------------------------*/
 
@@ -571,13 +349,6 @@ div.pp_overlay {
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-}
-
-.navbar-inverse .navbar-brand {
-    font-family:Lato,Sans-Serif;
-    font-size: 36px;
-    line-height: 50px;
-    color: #fff;
 }
 
 .navbar-inverse .navbar-nav {
@@ -729,11 +500,6 @@ div.pp_overlay {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-    border-top: 0;
-}
-
 .opaqued {
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.6);
@@ -754,13 +520,6 @@ div.pp_overlay {
     transition: all .5s ease-in-out;
 }
 
-.navbar-brand h1 {
-    margin: 0;
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 4px;
-}
-
 
 /*-----------------------------------------------------------------------------------*/
 
@@ -768,19 +527,11 @@ div.pp_overlay {
 /*  TEAM
 /*-----------------------------------------------------------------------------------*/
 
-.team-member:hover .img-thumbnail {
-    background: transparent;
-    background-color: #00b29e;
-}
-
 .team-member .img-thumbnail {
     padding: 0;
     border-radius: 0;
     margin-bottom: 0;
     overflow: hidden;
-    -webkit-transition: background .3s color .3s box-shadow .3s;
-    -moz-transition: background .3s color .3s box-shadow .3s;
-    transition: background .3s color .3s box-shadow .3s;
 }
 
 .team-content {
@@ -791,24 +542,6 @@ div.pp_overlay {
 
 .team-content h5 {
     font-size: 16px;
-}
-
-.team-image .overlay .preview {
-    position: relative;
-    top: 50%;
-    display: inline-block;
-    margin-top: -20px;
-}
-
-.team-image:hover .overlay {
-    opacity: 1;
-}
-
-
-.service-block .media-heading {
-    margin-bottom: 8px;
-    font-size: 16px;
-    font-family: Lato, sans-serif;
 }
 
 .section-heading hr {
