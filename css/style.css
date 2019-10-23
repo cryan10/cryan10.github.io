@@ -1,4 +1,4 @@
-/* IMPACT - By DistinctiveThemes */
+/* Site-wide styling */
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
 @import url('https://fonts.googleapis.com/css?family=Roboto'); /*I don't think this font is used anywhere on the site*/
@@ -20,20 +20,37 @@
     font-style: normal;
 }
 
-.studioPhoto{
+.imageSoftEdges{
     border:1px solid rgb(240, 240, 240);
 }
 
-.boxTitle{
+.pricingBoxTitle{
     font-weight:700;
     letter-spacing: 2px;
 }
+
+.contactButtons{
+    font-size:37px;
+}
+
+.innerContactButtons{
+    padding-left: 30px;
+}
+
+/*END Site-wide styling*/
+
+/*Fleur de Femme styling*/
 
 .fleurSubtitle{
     text-transform:uppercase; 
     letter-spacing:1.5px;
     font-weight:500;
 }
+
+/*END Fleur de Femme styling*/
+
+
+/*Competition Program styling*/
 
 .competitionCarouselImg img {
     width: auto;
@@ -47,15 +64,14 @@
     max-height: 225px;
   }  
 
-.contactButtons{
-    font-size:37px;
-}
+/*END Competition Program styling*/
 
-.innerContactButtons{
-    padding-left: 30px;
-}
 
-.pictureDescription{
+
+
+
+
+.homepageDepartmentPhoto{
     padding-right:20px !important;
 }
 
@@ -1430,19 +1446,6 @@ textarea#message {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 2px;
-}
-
-#testimonials-slider p {
-    font-size: 15px;
-    font-style: italic;
-    margin-bottom: 10px;
-}
-
-#testimonials-slider h4 {
-     font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 14px;   
 }
 
 .search-trigger {
