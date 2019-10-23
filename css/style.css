@@ -1510,16 +1510,19 @@ textarea#message {
    
 }
 
-.beLogoSection .btn.btn-md{
+.beLogoSectionChildButton .btn.btn-md{
     border: 5px solid #fff;
     color: #fff;
     border-radius: 0;
-    font-size: 26px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 10px 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.beLogoSectionChild{
+    max-width: 50%;
 }
 /*END BE Logo Section on all pages*/
