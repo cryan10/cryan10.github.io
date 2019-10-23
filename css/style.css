@@ -1351,6 +1351,7 @@ textarea#message {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size:22px;
+    color:#fff;
 }
 
 .section-title {
@@ -1500,7 +1501,7 @@ textarea#message {
 
 /* END 404 Page */
 
-/*BE Logo Section on all pages*/
+/*BE Logo Section on homepage*/
 .beLogoSection{
     height:100vh;
     background-color: #000000;
@@ -1522,20 +1523,42 @@ textarea#message {
     margin-right: auto;
 }
 
+.beLogoSectionChild{
+    max-width: 80%;
+}
+
 @media only screen and (min-width: 1023px) {
     .beLogoSectionChildButton .btn.btn-md{
         width: 40%;
     }
 }
 
+@media only screen and (min-width: 767px) {
+    .beLogoSectionChild{
+        max-width: 50%;
+    }    
+}
+/*END BE Logo Section on homepage*/
 
-.beLogoSectionChild{
-    max-width: 50%;
+/*BE Logo Section for all pages except homepage*/
+.beClassLogo{
+    height:80vh;
+    background-color: #000000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
-    .beLogoSectionChild{
-        max-width: 80%;
+@media only screen and (min-width: 767px) {
+    .beClassLogo{
+        height:60vh;
     }
 }
-/*END BE Logo Section on all pages*/
+
+@media only screen and (min-width: 1202px) {
+    .beClassLogo{
+        height:40vh;
+    }
+}
+/*END BE Logo Section for all pages except homepage*/
