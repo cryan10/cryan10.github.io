@@ -23,31 +23,10 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-.pe-7s-cloud-upload:before {
-	content: "\e68a";
-}
 .pe-7s-close:before {
 	content: "\e680";
 }
-.pe-7s-cloud-download:before {
-	content: "\e68b";
-}
-.pe-7s-close-circle:before {
-	content: "\e681";
-}
-.pe-7s-angle-up:before {
-	content: "\e682";
-}
-.pe-7s-angle-up-circle:before {
-	content: "\e683";
-}
-.pe-7s-angle-right:before {
-	content: "\e684";
-}
-.pe-7s-angle-right-circle:before {
-	content: "\e685";
-}
+
 .pe-7s-angle-left:before {
 	content: "\e686";
 }
@@ -60,87 +39,9 @@
 .pe-7s-angle-down-circle:before {
 	content: "\e689";
 }
-.pe-7s-wallet:before {
-	content: "\e600";
-}
-.pe-7s-volume2:before {
-	content: "\e601";
-}
-.pe-7s-volume1:before {
-	content: "\e602";
-}
-.pe-7s-voicemail:before {
-	content: "\e603";
-}
-.pe-7s-video:before {
-	content: "\e604";
-}
-.pe-7s-user:before {
-	content: "\e605";
-}
-.pe-7s-upload:before {
-	content: "\e606";
-}
-.pe-7s-unlock:before {
-	content: "\e607";
-}
-.pe-7s-umbrella:before {
-	content: "\e608";
-}
-.pe-7s-trash:before {
-	content: "\e609";
-}
-.pe-7s-tools:before {
-	content: "\e60a";
-}
-.pe-7s-timer:before {
-	content: "\e60b";
-}
-.pe-7s-ticket:before {
-	content: "\e60c";
-}
-.pe-7s-target:before {
-	content: "\e60d";
-}
-.pe-7s-sun:before {
-	content: "\e60e";
-}
-.pe-7s-study:before {
-	content: "\e60f";
-}
-.pe-7s-stopwatch:before {
-	content: "\e610";
-}
-.pe-7s-star:before {
-	content: "\e611";
-}
-.pe-7s-speaker:before {
-	content: "\e612";
-}
-.pe-7s-signal:before {
-	content: "\e613";
-}
-.pe-7s-shuffle:before {
-	content: "\e614";
-}
-.pe-7s-shopbag:before {
-	content: "\e615";
-}
-.pe-7s-share:before {
-	content: "\e616";
-}
-.pe-7s-server:before {
-	content: "\e617";
-}
-.pe-7s-search:before {
-	content: "\e618";
-}
-.pe-7s-science:before {
-	content: "\e619";
-}
-.pe-7s-ribbon:before {
-	content: "\e61a";
-}
+
+
+
 .pe-7s-repeat:before {
 	content: "\e61b";
 }
@@ -150,30 +51,17 @@
 .pe-7s-refresh-cloud:before {
 	content: "\e61d";
 }
-.pe-7s-radio:before {
-	content: "\e61e";
-}
-.pe-7s-print:before {
-	content: "\e61f";
-}
+
+
 .pe-7s-prev:before {
 	content: "\e620";
 }
-.pe-7s-power:before {
-	content: "\e621";
-}
-.pe-7s-portfolio:before {
-	content: "\e622";
-}
-.pe-7s-plus:before {
-	content: "\e623";
-}
+
+
 .pe-7s-play:before {
 	content: "\e624";
 }
-.pe-7s-plane:before {
-	content: "\e625";
-}
+
 .pe-7s-photo-gallery:before {
 	content: "\e626";
 }
@@ -201,15 +89,7 @@
 .pe-7s-news-paper:before {
 	content: "\e62e";
 }
-.pe-7s-musiclist:before {
-	content: "\e62f";
-}
-.pe-7s-music:before {
-	content: "\e630";
-}
-.pe-7s-mouse:before {
-	content: "\e631";
-}
+
 .pe-7s-more:before {
 	content: "\e632";
 }
