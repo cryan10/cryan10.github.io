@@ -37,15 +37,18 @@
 }
 
 .btn.btn-md:hover{
-    background-color:rgba(0, 0, 0, 0.89) !important;
+    background-color: #313131;
+    color: #fff;
 }
 
 .btn.btn-sm:hover{
-    background-color:rgba(0, 0, 0, 0.89) !important;
+    background-color: #313131;
+    color: #fff;
 }
 
 .btn.btn-lg:hover{
-    background-color:rgba(0, 0, 0, 0.89) !important;
+    background-color: #313131;
+    color: #fff;
 }
 
 .modal-title{
@@ -621,6 +624,10 @@ ul.pagination > li:hover > a {
     background-color: transparent;
 }
 
+.footer-social-media{
+    font-size:30px;
+}
+
 /*-----------------------------------------------------------------------------------*/
 
 
@@ -756,6 +763,8 @@ ul.pagination > li:hover > a {
 .btn-sm, .btn-xs {
     padding: 5px 10px;
     font-size: 12px;
+    background-color:black; 
+    color:white;
 }
 
 .team-member .btn {
