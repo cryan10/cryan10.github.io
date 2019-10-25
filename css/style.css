@@ -625,7 +625,12 @@ ul.pagination > li:hover > a {
 }
 
 .footer-social-media{
-    font-size:30px;
+    font-size:37px;
+    padding-right: 30px;
+}
+
+.fa-chevron-up{
+    font-size: 26px;
 }
 
 /*-----------------------------------------------------------------------------------*/
