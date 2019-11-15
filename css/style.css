@@ -633,6 +633,14 @@ ul.pagination > li:hover > a {
     font-size: 26px;
 }
 
+.social-media-links{
+    font-size: 24px;
+}
+
+.social-media-links a{
+    padding-right:10px;
+}
+
 /*-----------------------------------------------------------------------------------*/
 
 
@@ -883,8 +891,7 @@ ul.pagination > li:hover > a {
     display:flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-}
+    text-align: center;}
 
 @media only screen and (min-width: 767px) {
     .beClassLogo{
@@ -894,7 +901,23 @@ ul.pagination > li:hover > a {
 
 @media only screen and (min-width: 1202px) {
     .beClassLogo{
-        height:40vh;
+        height:75vh;
     }
 }
+
+.be-button{
+    background-color:black; 
+    color:white;
+    border-color:white
+}
 /*END BE Logo Section for all pages except homepage*/
+
+/*About Us page*/
+.black-section{
+    background-color:rgb(24, 24, 24);
+    color:white; 
+    border:2px solid black; 
+    border-radius:3px;
+}
+/*END About Us page*/
+
